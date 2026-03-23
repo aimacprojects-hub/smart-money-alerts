@@ -1,0 +1,20 @@
+{
+  "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4": {
+    "name": "Jupiter Aggregator",
+    "type": "DEX Protocol",
+    "balance": 6.184956904,
+    "lastChecked": "2026-03-23T01:13:15.346Z"
+  },
+  "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1": {
+    "name": "Raydium Authority",
+    "type": "DEX Protocol",
+    "balance": 32.959952851,
+    "lastChecked": "2026-03-23T01:13:15.572Z"
+  },
+  "GThUX1Atko4tqhN2NaiTazWSeFWMuiUvfFnyJyUghFMJ": {
+    "name": "Marinade Treasury",
+    "type": "Staking Protocol",
+    "balance": 377.077492757,
+    "lastChecked": "2026-03-23T01:13:15.801Z"
+  }
+}

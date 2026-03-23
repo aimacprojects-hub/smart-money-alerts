@@ -1,0 +1,28 @@
+{
+  "name": "smart-money-alerts-backend",
+  "version": "1.0.0",
+  "description": "AiVentures - Smart Money Alerts Backend (24/7 Whale Monitoring)",
+  "main": "start-monitoring.js",
+  "scripts": {
+    "start": "node start-monitoring.js",
+    "test": "node helius-test.js",
+    "check": "node alert-system.js"
+  },
+  "keywords": [
+    "solana",
+    "whale-tracking",
+    "crypto",
+    "alerts",
+    "aiventures"
+  ],
+  "author": "AiVentures",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.8.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
