@@ -6,7 +6,9 @@ const path = require('path');
 const crypto = require('crypto');
 
 // Initialize database
-const dbPath = path.join(__dirname, '../database/users.db');
+const dbDir = path.join(__dirname, 'data');
+require('fs').mkdirSync(dbDir, { recursive: true });
+const dbPath = path.join(dbDir, 'users.db');
 const db = new Database(dbPath);
 
 // Enable foreign keys
